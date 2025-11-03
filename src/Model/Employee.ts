@@ -1,4 +1,4 @@
-export class EmployeeClass {
+export class EmployeeModel {
     empId:number;
     name:string;
     city:string;
@@ -9,7 +9,7 @@ export class EmployeeClass {
     pincode:string;
 
     constructor(){
-        this.empId=0;
+        this.empId=1;
         this.name='';
         this.city ='';
         this.state = '';
